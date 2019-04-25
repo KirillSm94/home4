@@ -1,0 +1,57 @@
+@import url("./grid.css");
+
+body {
+    margin: 0;
+}
+
+.content {
+    border: 1px solid black;
+    margin: 10px 10px 10px;
+    height: 300px;
+}
+
+.content2 {
+    border: 1px solid black;
+    margin: 10px 10px 10px;
+    padding: 0;
+    max-height: 925px;
+    max-width: 925px;
+    position: relative;
+    top:0;
+    left: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+ul li  img {
+    width: 96%;
+    height: 900px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+ul li {
+    display: none;
+}
+
+
+ul li.active {
+    display: block;
+
+}
+
+.content2 span {
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    
+}
